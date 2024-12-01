@@ -1,0 +1,19 @@
+.searchContainer {
+    border: 1.5px solid black;
+    border-radius: 8px;
+    width: 320px;
+    padding: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+
+    .listContainer {
+      margin-top: 20px;
+      width: 320px;
+    }
+
+    .list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .listItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+
+    .contactInfo {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contactName, .contactNumber {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .icon {
+      margin-right: 8px;
+    }
+
+    .deleteButton {
+      background-color: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    .deleteButton:hover {
+      background-color: #ff1a1a;
+    }
+
+    .deleteButton .icon {
+      margin-right: 5px;
+    }
